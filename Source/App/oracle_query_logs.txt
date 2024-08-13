@@ -1,0 +1,2 @@
+-------------------Start----------------------------------------------------
+Oracle query execution started for select on table DUAL at 2-11-2024 18:49:49

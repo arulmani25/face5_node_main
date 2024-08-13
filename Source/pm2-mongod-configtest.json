@@ -1,0 +1,17 @@
+{
+    "apps": [
+        {
+            "name": "mongod-configtest",
+            "script": "mongod",
+            "args": "--config /etc/mongod.conf",
+            "cwd": "/usr/bin",
+            "instances": 1,
+            "autorestart": false,
+            "watch": false,
+            "max_memory_restart": "1G",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
